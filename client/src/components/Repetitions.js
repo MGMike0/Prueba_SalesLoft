@@ -28,14 +28,14 @@ tops = () => {
 	let iterator = superSet.values();
 /*We make it an Set so there are no repetitions*/
 
-	let otra = this.count(iterator, todo, superSet.size)
+	let otra = this.objectificador(iterator, todo, superSet.size)
 //In this function we count the repetition of characters of the set in the big string 
 	otra = this.bubbleSort(otra,superSet.size)
 	
 	return this.displayTable(Object.values(otra))
-	};
-
-count = (set, todo, size) => {
+};
+//Name is just a silly joke objetificador la creadora de objetos.
+objectificador = (set, todo, size) => {
 	let uno= 1
 	let temp = ''
 	let final= {}
