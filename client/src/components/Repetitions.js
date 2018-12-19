@@ -17,7 +17,7 @@ componentWillMount() {
 tops = () => {
 	let todo = []
 	let temp = '';
-//First he get all the emails
+//First he get all the email address
 	this.props.list.map((elem, index) =>{
 		temp = elem.email_address.split('')
   		todo = todo.concat(temp);

@@ -20,9 +20,7 @@ module.exports = app => {
 			//Now it gives it all on plank text with no filtering or json format.
 			response = parse(response);
 			//Parse to json fomat
-
 			// ass the challenge descriptions says: Display each Person’s name, email address, and job title. I will send only that data.
-
 			response = response.map((elem , index) =>(
 					{
 						id: index,

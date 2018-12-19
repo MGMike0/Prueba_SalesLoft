@@ -35,7 +35,7 @@ sweeper = () => {
 						"alike" : temp1[0]
 					})
 				}
-			}*/
+			}s*/
 			//This one works the best, there is not a lot of opporunity to test because of the reports in the DB but I think this could work, im just wondering how it would handle more searches.
 
 			if(index != intern){
